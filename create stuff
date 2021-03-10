@@ -1,0 +1,19 @@
+import random
+import time
+
+p = 1
+o = 100
+x = random.randint(p, o)
+
+if(x%3==0) & (x%5==0):
+    print ("FizzBuzz", x)
+    exit()
+if(x%3==0):
+    print ("Fizz", x)
+    exit() 
+if(x%5==0):
+    print ("Buzz", x)
+    exit()
+else:
+    print (x)
+exit()
